@@ -5,8 +5,27 @@ body {
 
 li {
     list-style: none;
+    padding: 0 1em;
+
 }
 li a {
     text-decoration: none;
     color: white;
 }
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    
+}
+nav ul {
+    display: flex;
+    padding-left: 0;
+}
+.left-items a {
+    color: #bdc1c6;
+}
+nav li:hover {
+    text-decoration: underline;
+}
+
