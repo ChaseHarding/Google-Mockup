@@ -28,4 +28,46 @@ nav ul {
 nav li:hover {
     text-decoration: underline;
 }
+.logo {
+    display: flex;
+    justify-content: center;
+}
+h1 {
+    font-family: "Roboto", sans-serif;
+    font-size: 5em;
+}
+main {
+    display: flex;
+    flex-direction: column;
+}
+.search-container {
+    display: flex;
+    flex-direction: column;
+}
+form {
+    display: flex;
+    justify-content: center;
+   
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    gap: 10px;
+    
+}
+button {
+    border-radius: 4px;
+    color: white;
+    background: rgba(68, 62, 62, 0.5);
+
+    
+}
+input {
+    border-radius: 16px;
+    border: 1px solid #bdc1c6;
+    background: #202124;
+    width: 15em;
+    color: white;
+}
 
