@@ -122,3 +122,23 @@ input {
     align-items: center;
     height: 60vh;
 }
+
+
+.footer-container{
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    
+}
+
+.footer-container footer ul {
+    display: flex;
+    justify-content: space-evenly;
+    background: #121212;
+    width: 97vw;
+    height: 3em;
+    margin: 0;
+    
+}
+
