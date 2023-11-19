@@ -108,6 +108,14 @@ input {
     width: 40em;
 }
 
+#search {
+    padding-left: 40px;
+}
+
+#search:hover {
+    background: #bdc1c652;
+}
+
 .hero-container {
     display: flex;
     justify-content: center;
