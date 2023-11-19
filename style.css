@@ -44,6 +44,35 @@ main {
     display: flex;
     flex-direction: column;
 }
+.search-container form {
+    position: relative;
+}
+
+.search-container form #magnify {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10px;
+    font-size: 1.5em;
+}
+
+.search-container form #camera {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    font-size: 1.5em;
+}
+
+.search-container form #microphone {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 40px;
+    font-size: 1.5em;
+}
+
+
 form {
     display: flex;
     justify-content: center;
