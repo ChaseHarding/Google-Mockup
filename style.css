@@ -47,6 +47,8 @@ main {
 form {
     display: flex;
     justify-content: center;
+    /* border: 1px solid red; */
+    
    
 }
 .buttons {
@@ -57,11 +59,15 @@ form {
     
 }
 button {
+    border: none;
     border-radius: 4px;
+    padding: 0.6em;
     color: white;
-    background: rgba(68, 62, 62, 0.5);
+    background: rgba(68, 62, 62, 0.5); 
+}
+button:hover {
+    outline: 1px solid #bdc1c6;
 
-    
 }
 input {
     border-radius: 16px;
@@ -69,5 +75,13 @@ input {
     background: #202124;
     width: 15em;
     color: white;
+    height: 2.8em;
+    width: 40em;
 }
 
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
