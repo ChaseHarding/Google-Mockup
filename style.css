@@ -123,22 +123,34 @@ input {
     height: 60vh;
 }
 
+footer ul {
+    background-color: #111213;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 17em;
+    height: 4em;
+    align-items: center;
 
-.footer-container{
-    height: 30vh;
+    
+}
+
+.footer-left {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;
+}
+
+.footer-middle {
     display: flex;
     flex-direction: row;
     align-items: flex-end;
-    
 }
 
-.footer-container footer ul {
+.footer-right {
     display: flex;
-    justify-content: space-evenly;
-    background: #121212;
-    width: 97vw;
-    height: 3em;
-    margin: 0;
-    
+    flex-direction: row;
+    align-items: flex-end;
 }
+
 
